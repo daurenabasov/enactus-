@@ -1,0 +1,41 @@
+.header{
+    height: 72px;
+    border-bottom: 1px solid black;
+    max-width:90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width:318px;
+    margin-top: 13px;
+}
+.logo img{ 
+    width:318px;
+}
+.panel{
+    min-width:420px;
+    align-items:center;
+    display: flex;
+    justify-content: space-between;
+}
+.pan_img{
+    width:20px;
+    height:20px;
+}
+.pan_img img{
+    width:20px;
+    height:20px;
+}
+.panel_register{
+    width: 116px;
+    height:35px;
+    text-align: center;
+}
+.pan_btn{
+    width: 170px;
+    height: 45px;
+    background-color: black;
+    border-radius:15px;
+    color:white;
+}

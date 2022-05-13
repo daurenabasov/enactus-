@@ -1,0 +1,45 @@
+.navl{
+    max-width:90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.navlink{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin-top: 35px;
+    margin-right: 72px;
+}
+.nav_block{
+    margin-right: 25px;
+}
+
+.navlink a{
+    text-decoration: none;
+    text-transform: uppercase;
+    justify-content: space-between;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.search{
+    width:20%;
+    margin-top: 25px;
+    display: flex;
+}
+.search_inp{
+    width:240px;
+    height:30px;
+    border:2px solid black;
+    border-right: 0px;
+    font-size: 17px;
+    color:gray;
+    padding-left: 15px;
+}
+
+.search_blocks{
+    cursor: pointer;
+    height:35px;
+    background-color:white !important;
+}
