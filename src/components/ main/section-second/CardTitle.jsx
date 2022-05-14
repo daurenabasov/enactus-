@@ -9,20 +9,20 @@ const CardTitle = () => {
                 <h1>начните подбор прямо сейчас!</h1>
                 <div className={s.card__blocks}>
                     <Card />
+                    <Card />
 
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+
+                    <Card />
                     <Card />
 
                     <Card />
 
-                    <Card />
 
-                    <Card />
-
-                    <Card />
                 </div>
-
-
-
             </div>
         </div>
     );

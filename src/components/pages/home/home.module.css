@@ -43,3 +43,12 @@
     height:35px;
     background-color:white !important;
 }
+@media (max-width:1445px){
+    .navl{
+        display: block;
+        
+    }
+    .navlink{
+        max-width:100%;
+    }
+}
