@@ -1,9 +1,7 @@
 .container {
     max-width: 100%;
     display: flex;
-    flex-direction: row;
     margin-top: 70px;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -82,6 +80,18 @@
     color: #000000 !important;
 }
 
-@media screen and (max-width: 720px){
+.first__block, .second__block, .third__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first__block span, .second__block span, .third__block span{
+    text-align: center;
+}
+@media screen and (max-width: 1020px){
+    .container{
+        flex-wrap: wrap;
+    }
     
 }

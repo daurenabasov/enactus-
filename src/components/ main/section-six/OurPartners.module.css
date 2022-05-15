@@ -32,14 +32,10 @@ hr {
 }
 
 .blocks {
-    /* display: flex;
-    justify-content: center;
-    gap: 110px;*/
-    margin-top: 66px;
     padding-bottom: 133px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    grid-gap: 2vw;
-    
+    display: flex;
     justify-content: center;
+    margin: 30px 60px 0 30px;
+    gap: 110px;
+    flex-wrap: wrap;
 }
