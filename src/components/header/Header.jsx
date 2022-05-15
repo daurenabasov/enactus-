@@ -14,9 +14,9 @@ const Header = () => {
                 <div className={s.pan_img}>
                     <img src={like} alt=''/>
                 </div>
-                <div className={s.panel_register}>
+                <a href="/register" className={s.panel_register}>
                 Войти/Регистрация
-                </div>
+                </a>
                 <div>
                     <button className={s.pan_btn}>
                         Добавить компанию

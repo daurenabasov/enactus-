@@ -1,0 +1,85 @@
+.register{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f8;
+}
+
+.formBlock{
+  width: 100%;
+  max-width: 520px;
+  height: 600px;
+  background-color: #f0f0f8;
+  border-radius: 15px;
+  -webkit-box-shadow: 15px 15px 40px rgb(43 43 163 / 15%), -10px -10px 20px #fff;
+    box-shadow: 15px 15px 40px rgb(43 43 163 / 15%), -10px -10px 20px #fff;
+  padding: 30px;
+  margin: 0 8px 0 8px;
+}
+
+.formBlock > h5{
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.activeLink{
+  color: #595a6c;
+  text-decoration: none;
+}
+.nonActiveLink{
+  color: rgba(89,90,108,.5);
+  text-decoration: none;
+}
+
+.separatePoint{
+  width: 12px;
+  height: 12px;
+  background: linear-gradient(90deg,#3c7bea 0,#57b9f3 100%);
+  margin-top: 8px;
+  border-radius: 100%;
+}
+
+.formGroup > form{
+  display: flex;
+  flex-direction: column;
+  gap: 4px
+}
+
+.formGroup form > input{
+  -webkit-box-shadow: inset 3px 3px 3px rgb(0 0 0 / 20%);
+    box-shadow: inset 3px 3px 3px rgb(0 0 0 / 20%);
+    border-radius: 37px;
+    border: none;
+    padding: 6px 6px 6px 21px;
+    margin-top: 24px;
+    height: 44px;
+}
+
+.customFeedback{
+  text-align: center;
+}
+
+.formGroup form div{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+div > input{
+  width: 60%;
+  -webkit-box-shadow: inset 3px 3px 3px rgb(0 0 0 / 20%);
+  box-shadow: inset 3px 3px 3px rgb(0 0 0 / 20%);
+  border-radius: 37px;
+  border: none;
+  padding: 6px 6px 6px 21px;
+  margin-top: 24px;
+  height: 44px;
+}
+
+div > label{
+  margin-top: 24px;
+  margin-left: 24px;
+}

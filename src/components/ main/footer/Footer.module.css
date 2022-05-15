@@ -2,9 +2,12 @@
     max-width: 100%;
     background: black;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding-top: 30px;
     min-height: 405px;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 0 20px 40px 20px;
 }
 
 .first__section {
