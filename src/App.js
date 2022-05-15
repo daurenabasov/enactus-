@@ -1,22 +1,18 @@
-import './App.css';
-import CardTitle from './components/ main/section-second/CardTitle';
-import Swipper from './components/ main/swipper/Swipper';
-import Header from './components/header/Header';
-import Home from './components/pages/home/Home';
+import "./App.css";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
+import Main from "./components/pages/home/Main";
+
+
 
 function App() {
   return (
-    <div className="App">
-
-      <Header/>
-
-      <Home />
-
-      <Swipper/>
-
-
-    <CardTitle/>      
-    </div>
+    <Main/>
   );
 }
 

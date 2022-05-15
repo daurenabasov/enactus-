@@ -1,0 +1,56 @@
+.footer {
+    max-width: 100%;
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    min-height: 405px;
+}
+
+.first__section {
+    margin-top: 54px;
+}
+
+.second__section {
+    margin-top: 5px;
+}
+
+.nukura__text {
+    font-family: 'Bruno Ace';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+    margin-top: 34px;
+}
+
+ /* @media screen and (width: 605px) {
+    .enactus__logo > img {
+        width: 100px;
+    }
+
+}  */
+
+
+
+.enactus__text {
+    font-family: 'Bruno Ace';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.second__section {
+    display: flex;
+    flex-direction: column;
+}
