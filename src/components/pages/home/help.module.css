@@ -1,0 +1,108 @@
+.help_container {
+    margin-top: 90px;
+    background: url("../../../assets/lol123.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    min-height: 648px;
+    padding: 30px 60px;
+}
+
+.help_block {
+    width: 50%;
+    padding-top: 90px;
+    border-right: 3px solid white;
+}
+
+.help_block h2 {
+    max-width: 430px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.help_block button {
+    margin-left: 85px;
+    min-width: 452px;
+    height: 51px;
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+
+.help_blocks {
+    width: 50%;
+}
+
+.help_description {
+    padding-top: 130px;
+    padding-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.help_description div {
+    margin-right: 40px;
+    align-items: center;
+    font-size: 25px;
+    width: 217.8px;
+    height: 141.02px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1240px) {
+    .help_block {
+        width: 40%;
+        padding-right: 40px;
+    }
+    .help_blocks {
+        width: 60%;
+    }
+    .help_block h2 {
+        font-size: 25px;
+    }
+    .help_block button {
+       min-width: 300px;
+    }
+    .help_description div {
+        width: 200.8px;
+    }
+    
+   
+  }
+@media screen and (max-width: 1060px) {
+    .help_container {
+      display: block;
+      padding:0px;
+    }
+    .help_block{
+        width: 100%;
+        border-right: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .help_blocks{
+        width: 100%;
+    }
+    .help_block h2{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .help_description {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .help_block button {
+        min-width: 300px;
+        margin-right: 0px;
+        margin: 0 auto;
+     }
+  }

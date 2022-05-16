@@ -1,0 +1,143 @@
+.register{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f8;
+  }
+  
+  .formBlock{
+    width: 100%;
+    max-width: 520px;
+    height: 440px;
+    background-color: #f0f0f8;
+    border-radius: 15px;
+    -webkit-box-shadow: 15px 15px 40px rgb(43 43 163 / 15%), -10px -10px 20px #fff;
+      box-shadow: 15px 15px 40px rgb(43 43 163 / 15%), -10px -10px 20px #fff;
+    padding: 30px;
+    margin: 0 8px 0 8px;
+  }
+  
+  .formBlock > h5{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .activeLink{
+    color: #595a6c;
+    text-decoration: none;
+  }
+  .nonActiveLink{
+    color: rgba(89,90,108,.5);
+    text-decoration: none;
+  }
+  
+  .separatePoint{
+    width: 12px;
+    height: 12px;
+    background: linear-gradient(90deg,#3c7bea 0,#57b9f3 100%);
+    margin-top: 8px;
+    border-radius: 100%;
+  }
+  
+  .formGroup > form{
+    display: flex;
+    flex-direction: column;
+    gap: 4px
+  }
+  
+  .formGroup form > input{
+    -webkit-box-shadow: inset 3px 3px 3px rgb(0 0 0 / 20%);
+      box-shadow: inset 3px 3px 3px rgb(0 0 0 / 20%);
+      border-radius: 37px;
+      border: none;
+      padding: 6px 6px 6px 21px;
+      margin-top: 24px;
+      height: 44px;
+  }
+  
+  .customFeedback{
+    text-align: center;
+  }
+  
+  .formGroup form div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  div > input{
+    width: 60%;
+    -webkit-box-shadow: inset 3px 3px 3px rgb(0 0 0 / 20%);
+    box-shadow: inset 3px 3px 3px rgb(0 0 0 / 20%);
+    border-radius: 37px;
+    border: none;
+    padding: 6px 6px 6px 21px;
+    margin-top: 24px;
+    height: 44px;
+  }
+  
+  div > label{
+    margin-top: 24px;
+    margin-left: 24px;
+  }
+  
+  .SubmitButton{
+    border: none;
+      margin-top: 60px;
+      margin-bottom: 8px;
+      font-size: 22px;
+      padding: 19px 49px;
+      border-radius: 38px;
+      -webkit-box-shadow: -7px -7px 6px #fff, 7px 7px 15px rgb(43 43 163 / 31%);
+      box-shadow: -7px -7px 6px #fff, 7px 7px 15px rgb(43 43 163 / 31%);
+      display: inline-block;
+      position: relative;
+      background: -o-linear-gradient(left,#3c7aea 0,#59bcf4 100%);
+      background: linear-gradient(90deg,#3c7aea 0,#59bcf4 100%);
+      -webkit-box-shadow: 15px 15px 40px rgb(43 43 163 / 15%);
+      box-shadow: 15px 15px 40px rgb(43 43 163 / 15%);
+      border-radius: 24px;
+      text-transform: uppercase;
+      color: #fff;
+      padding: 15px 49px;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 17px;
+      overflow: hidden;
+      z-index: 1;
+      -webkit-transition: all .7s ease;
+      -o-transition: all .7s ease;
+      transition: all .7s ease;
+  }
+  
+  .ResetButton{
+    border: none;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 22px;
+    padding: 19px 49px;
+    border-radius: 38px;
+    -webkit-box-shadow: -7px -7px 6px #fff, 7px 7px 15px rgb(43 43 163 / 31%);
+    box-shadow: -7px -7px 6px #fff, 7px 7px 15px rgb(43 43 163 / 31%);
+    display: inline-block;
+    position: relative;
+    background: -o-linear-gradient(left,#3c7aea 0,#59bcf4 100%);
+    background: linear-gradient(90deg,#3c7aea 0,#59bcf4 100%);
+    -webkit-box-shadow: 15px 15px 40px rgb(43 43 163 / 15%);
+    box-shadow: 15px 15px 40px rgb(43 43 163 / 15%);
+    border-radius: 24px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 15px 49px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 17px;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: all .7s ease;
+    -o-transition: all .7s ease;
+    transition: all .7s ease;
+  }

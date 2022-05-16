@@ -8,6 +8,7 @@ import Home from "../../.././components/pages/home/Home";
 import DataBase from "../../.././components/ main/section-four/DataBase";
 import OurPartners from "../../.././components/ main/section-six/OurPartners";
 import Footer from "../../.././components/ main/footer/Footer";
+import Help from './Help';
 
 const Main = () => {
     return (
@@ -24,7 +25,7 @@ const Main = () => {
   
         <DataBase />
   
-        {/* Ilgiz section */}
+        <Help/>
   
         <OurPartners />
   
