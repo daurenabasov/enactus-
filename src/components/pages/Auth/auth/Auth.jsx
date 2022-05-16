@@ -5,10 +5,12 @@ import * as Yup from "yup";
 
 import axios from "axios";
 import baseurl from "../../../../url";
+import { useHistory } from "react-router-dom";
+
 
 
 const Auth = () => {
-
+    let history = useHistory();
 
   return (
     <div className={s.register}>
@@ -39,6 +41,8 @@ const Auth = () => {
                   description: "wedew",
                   phone_number: "0707890890"
                 }
+              }).then(res => {
+                history.push("/");
               });
             }}
             validationSchema={Yup.object().shape({

@@ -4,11 +4,11 @@ import image from '../../../assets/city.png'
 import Rating from '@mui/material/Rating';
 import Stack from '@mui/material/Stack';
 
-const Card = () => {
+const Card = (props) => {
     return (
         <>
             <div className={s.card__container}>
-                <div className={s.img__block}></div>
+                <img src={props.image} className={s.img__block}/>
                 <h2>
                     Название
                 </h2>
