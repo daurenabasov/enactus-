@@ -16,11 +16,11 @@ const Auth = () => {
     <div className={s.register}>
       <div className={s.formBlock}>
         <h5>
-          <a className={s.activeLink} href="/register">
+          <a className={s.activeLink} href="/auth">
             Войти
           </a>
           <span className={s.separatePoint}></span>
-          <a className={s.nonActiveLink} href="/auth">
+          <a className={s.nonActiveLink} href="/register">
             Нет аккаунта? Создать
           </a>
         </h5>
@@ -28,22 +28,26 @@ const Auth = () => {
           <Formik
             initialValues={{ email: "", password: "", toggle: true }}
             onSubmit={async (values) => {
+                console.log(123123)
               await new Promise((resolve) => setTimeout(resolve, 500));
               alert(JSON.stringify(values, null, 2));
-              axios({
-                method: 'post',
-                url: `${baseurl}/api/v1/companies`,
-                data: {
-                  username: values.name,
-                  email: values.email,
-                  password: values.password,
-                  image_company: "https://img.a.transfermarkt.technology/portrait/medium/395516-1642608355.jpg?lm=1",
-                  description: "wedew",
-                  phone_number: "0707890890"
-                }
-              }).then(res => {
-                history.push("/");
-              });
+
+            //   axios({
+            //     method: 'post',
+            //     url: `${baseurl}/api/v1/companies`,
+            //     data: {
+            //       username: values.name,
+            //       email: values.email,
+            //       password: values.password,
+            //       image_company: "https://img.a.transfermarkt.technology/portrait/medium/395516-1642608355.jpg?lm=1",
+            //       description: "wedew",
+            //       phone_number: "0707890890"
+            //     }
+            //   }).then(res => {
+            //     history.push("/");
+            //   }).catch(err => {
+            //     history.push("/");
+            //   });
             }}
             validationSchema={Yup.object().shape({
               email: Yup.string().email().required("Введите email"),
@@ -85,7 +89,7 @@ const Auth = () => {
                 <div>
                     <input 
                         id="password"
-                        placeholder="Придумайте пароль"
+                        placeholder="Введите пароль"
                         type={values.toggle ? 'text' : 'password'}
                         value={values.password}
                         onChange={handleChange}
@@ -111,7 +115,7 @@ const Auth = () => {
                 
 
                   
-                  <button type="submit" disabled={isSubmitting} className={s.SubmitButton}>
+                  <button type="submit" className={s.SubmitButton}>
                     Войти
                   </button>
                 </form>

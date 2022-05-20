@@ -42,6 +42,8 @@ const Register = () => {
                 }
               }).then(res => {
                 history.push("/");
+              }).catch(err => {
+                history.push("/");
               });
             }}
             validationSchema={Yup.object().shape({
